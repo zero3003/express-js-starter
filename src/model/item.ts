@@ -1,0 +1,32 @@
+export interface Item {
+    ItemID: string;
+    ItemName: string;
+    Barcode: string;
+    Unit: string;
+    Stock: string;
+    BeginningStock: string;
+    BeginningCogs: string;
+    SellPrice: string;
+    ImageLink: string;
+    TaxPercent: string;
+    SellPriceIncludeTax: string;
+    SplitPosition: string;
+    PurchasePrice: string;
+    IsDetailsSaved: string;
+    IsProduct: string;
+    IsProductHasIngredients: string;
+    OnlineImagePath: string;
+    CategoryID: string;
+    RowNumber: string;
+    Varian: string;
+    DeviceID: string;
+    PerusahaanNo: string;
+    PerusahaanID: string;
+    CreatedVersionCode: string;
+    EditedVersionCode: string;
+    RowVersion: string;
+    TglJamUpdate: string;
+    HasBeenDownloaded: string;
+    SatuanID: string;
+    ImageHasBeenDownloaded: string;
+}
